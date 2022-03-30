@@ -13,6 +13,7 @@ public class JButtonExample implements ActionListener {
 
 	JButton b, b2;
 	int t = 0, t2 = 0;
+	
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource() == b) {
 			if(t % 2 ==  0) {
